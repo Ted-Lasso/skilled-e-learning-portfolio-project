@@ -81,7 +81,8 @@ body{
     margin: 40px 16px;
     /* border: #ff6f48 1px solid; */
     border-radius: 10px;
-    box-shadow: 30px 56px 30px 56px #f0f1ff;
+    /* box-shadow: 30px 56px 30px 56px #f0f1ff; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #ffffff;
 }
 #intro-card > h1{
@@ -112,9 +113,9 @@ body{
 
 .icon-animation img{
     position: relative;
-     top: -24px;  
-     width: 56px;
-     height: 56px;
+    top: -24px;  
+    width: 56px;
+    height: 56px;
     
 }
 .course-card-text{
@@ -135,7 +136,7 @@ body{
     display: flex;
     align-items: center;
     background-color: #13183f;
-    
+    width: 100%;
 }
 .footer-wrapper{
     display: flex;
@@ -164,13 +165,18 @@ body{
 @media (min-width: 576px) {
     .device-image{
         position: absolute;
-        top: -180px;
+        top: 5%;
         right: 0;
         width: 50%;
-        height: 70vh;
+        height: 700px;
         background-image: url(./images/image-hero-tablet.png);
         background-repeat: no-repeat;
         background-position: bottom left;
+        margin-top: -105px;
+        margin-right: 0;
+    }
+    .header {
+        margin-bottom: 16px;
     }
     .header-btn {
         z-index: 1;
@@ -178,7 +184,7 @@ body{
         margin-right: 40px;
     }
     .body-wrapper{
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-bottom: 86px;
     }
@@ -210,7 +216,7 @@ body{
         /* border: 3px solid red; */
     }
     .courses-cards{
-        margin: 0 ;
+        margin: 0;
     }
     #intro-card {
         width: 100%;
@@ -223,7 +229,6 @@ body{
     .footer{
         width: 100%;
     }
-    
 }
 @media (min-width: 992px) {
     .device-image {
@@ -270,17 +275,14 @@ body{
       line-height: 40px;
       font-weight: 800;
     }
-  
     #intro-card,
     .course-card {
       width: 100%;
     }
-  
     .footer-wrapper {
       width: 80%;
       margin: auto;
     }
-  
     .body-wrapper {
       width: 80%;
       margin: auto;
