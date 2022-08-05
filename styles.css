@@ -243,7 +243,10 @@ body{
   }
     .heading {
       font-size: 56px;
-      line-height: 70px;
+      line-height: 70.56px;
+      font-weight: 800;
+      width: 457px;
+      height: 143px;
     }
     .courses {
         width: 100%;
